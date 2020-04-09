@@ -16,7 +16,7 @@ find_shop
 
 
 ### 該当プロジェクトのリポジトリ URL（GitHub,GitLab など Git ホスティングサービスを利用されている場合）
-https://github.com/aokiyuyatsuyoshi/fashionable_find_shop_ver2.0
+https://github.com/aokiyuyatsuyoshi/find_shop_free
 
 ## 開発環境
 ### 開発環境

@@ -32,19 +32,19 @@ class ViewController: UIViewController,CLLocationManagerDelegate{
     //距離の入った配列
     var distance_array = [2,5,8,10,20]
     //初期値の写真を指定する配列
-    var first_array = ["staba1","bar2","tullys3"]
+    var first_array = ["starbucks_1","bar_2","tullys_3"]
     //スターバックスの写真を指定する配列
-    var starbucks_array = ["staba1","starbacks","staba2"]
+    var starbucks_array = ["starbucks_1","starbucks_2","starbucks_3"]
     //ガソリンスタンドの写真を指定する配列
-    var gas_array = ["gas1","gas2","gas3"]
+    var gas_array = ["gas_station_1","gas_station_2","gas_station_3"]
     //バーの写真を指定する配列
-    var bar_array = ["bar1","bar2","bar3"]
+    var bar_array = ["bar_1","bar_2","bar_3"]
     //ラーメンの写真を指定する配列
-    var ramen_array = ["ramen1","ramen2","ramen3"]
+    var ramen_array = ["ramen_1","ramen_2","ramen_3"]
     //タリーズコーヒーの写真を指定する配列
-    var tullys_array = ["tullys1","tullys2","tullys3"]
+    var tullys_array = ["tullys_1","tullys_2","tullys_3"]
     //コンビニの写真を指定する配列
-    var convenience_array = ["convenience1","convenience2","convenience3"]
+    var convenience_array = ["convenience_1","convenience_2","convenience_3"]
     //Top_ViewControllerから代入される変数
     var selected_shop : String = ""
     //全画面のpickerが選択した列番号

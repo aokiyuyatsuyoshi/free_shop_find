@@ -15,11 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1443f_1" translatesAutoresizingMaskIntoConstraints="NO" id="WQX-Ud-Krl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top_screen2" translatesAutoresizingMaskIntoConstraints="NO" id="WQX-Ud-Krl">
                                 <rect key="frame" x="0.0" y="506" width="414" height="393"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cafe_Table_Chairs_Lamp_488980" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a0S-rj-pjn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top_screen1" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a0S-rj-pjn">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="509"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -162,20 +162,6 @@
                                     <action selector="ramen_label:" destination="qcl-uN-yYE" eventType="touchUpInside" id="VpB-wC-yUz"/>
                                 </connections>
                             </button>
-                            <pickerView alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zX2-SE-9Qn">
-                                <rect key="frame" x="261" y="555" width="167" height="168"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="100"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </pickerView>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RM3-fM-6z1">
                                 <rect key="frame" x="276" y="350" width="138" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -209,7 +195,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where will you visit??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZi-5t-z0T">
-                                <rect key="frame" x="177" y="30" width="237" height="46"/>
+                                <rect key="frame" x="20" y="462" width="237" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemFallback" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -227,6 +213,20 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="result_segue" id="ZX8-yt-pwq"/>
                                 </connections>
                             </button>
+                            <pickerView alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zX2-SE-9Qn">
+                                <rect key="frame" x="0.0" y="588" width="167" height="168"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LSy-Si-4dd"/>
@@ -312,15 +312,15 @@
                                     <segue destination="qcl-uN-yYE" kind="show" id="dFG-ef-S5I"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="staba1" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-X2-kEB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbucks_1" translatesAutoresizingMaskIntoConstraints="NO" id="fwe-X2-kEB">
                                 <rect key="frame" x="-63" y="395" width="414" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="staba2" translatesAutoresizingMaskIntoConstraints="NO" id="wam-4f-9vH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tullys_3" translatesAutoresizingMaskIntoConstraints="NO" id="wam-4f-9vH">
                                 <rect key="frame" x="-10" y="637" width="414" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbacks" translatesAutoresizingMaskIntoConstraints="NO" id="SO8-Rh-5vb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar_2" translatesAutoresizingMaskIntoConstraints="NO" id="SO8-Rh-5vb">
                                 <rect key="frame" x="65" y="490" width="414" height="220"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -413,12 +413,13 @@
         <image name="1443f_1" width="1800" height="1200"/>
         <image name="647684_kokteyl_martini_napitok_7244x4829_www.Gde-Fon.com" width="1600" height="1067"/>
         <image name="647684_kokteyl_martini_napitok_7244x4829_www.Gde-Fon.com-1" width="640" height="440"/>
-        <image name="Cafe_Table_Chairs_Lamp_488980" width="7360" height="4912"/>
         <image name="back" width="626" height="417"/>
         <image name="bar2" width="800" height="600"/>
-        <image name="staba1" width="300" height="225"/>
-        <image name="staba2" width="2338" height="1638"/>
-        <image name="starbacks" width="615" height="474"/>
+        <image name="bar_2" width="750" height="499"/>
+        <image name="starbucks_1" width="1280" height="960"/>
+        <image name="top_screen1" width="1280" height="853"/>
+        <image name="top_screen2" width="1280" height="853"/>
+        <image name="tullys_3" width="1280" height="962"/>
         <image name="white" width="480" height="640"/>
     </resources>
     <inferredMetricsTieBreakers>

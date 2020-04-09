@@ -15,19 +15,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbacks" translatesAutoresizingMaskIntoConstraints="NO" id="q6Z-tb-yEM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch_frap" translatesAutoresizingMaskIntoConstraints="NO" id="q6Z-tb-yEM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="307"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="647684_kokteyl_martini_napitok_7244x4829_www.Gde-Fon.com" translatesAutoresizingMaskIntoConstraints="NO" id="Z7e-Vc-tUa">
-                                <rect key="frame" x="0.0" y="305" width="414" height="307"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch_cocktail" translatesAutoresizingMaskIntoConstraints="NO" id="Z7e-Vc-tUa">
+                                <rect key="frame" x="64" y="305" width="350" height="307"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tully" translatesAutoresizingMaskIntoConstraints="NO" id="0Bn-tE-P74">
-                                <rect key="frame" x="0.0" y="611" width="414" height="310"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch_coffee" translatesAutoresizingMaskIntoConstraints="NO" id="0Bn-tE-P74">
+                                <rect key="frame" x="0.0" y="611" width="329" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <bool key="isElement" value="YES"/>
@@ -37,11 +37,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="921"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tully" translatesAutoresizingMaskIntoConstraints="NO" id="PH1-VQ-AUl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch_coffee" translatesAutoresizingMaskIntoConstraints="NO" id="PH1-VQ-AUl">
                                 <rect key="frame" x="213" y="611" width="200" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="647684_kokteyl_martini_napitok_7244x4829_www.Gde-Fon.com" translatesAutoresizingMaskIntoConstraints="NO" id="8nB-sz-RYc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch_cocktail" translatesAutoresizingMaskIntoConstraints="NO" id="8nB-sz-RYc">
                                 <rect key="frame" x="0.0" y="305" width="213" height="307"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -52,7 +52,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starbacks" translatesAutoresizingMaskIntoConstraints="NO" id="c1C-BY-80l">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launch_frap" translatesAutoresizingMaskIntoConstraints="NO" id="c1C-BY-80l">
                                 <rect key="frame" x="213" y="0.0" width="212" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -81,9 +81,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="647684_kokteyl_martini_napitok_7244x4829_www.Gde-Fon.com" width="1600" height="1067"/>
-        <image name="starbacks" width="615" height="474"/>
-        <image name="tully" width="886" height="664"/>
+        <image name="launch_cocktail" width="1280" height="856"/>
+        <image name="launch_coffee" width="1280" height="853"/>
+        <image name="launch_frap" width="1280" height="721"/>
         <image name="white" width="480" height="640"/>
     </resources>
 </document>
